@@ -5,7 +5,13 @@ export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 
 	theme: {
-		extend: {}
+		extend: {
+            fontFamily: {
+                'sans': ['Arial', 'Helvetica', 'sans-serif'],
+                'hoover-regular': ['Hoover-Regular', 'Arial', 'sans-serif'],
+                'space-mono': ['Space-Mono', 'monospace']
+            }
+        }
 	},
 
 	plugins: [typography]
