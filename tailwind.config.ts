@@ -7,7 +7,7 @@ export default {
 	theme: {
 		extend: {
             fontFamily: {
-                'sans': ['Arial', 'Helvetica', 'sans-serif'],
+                'sans': ['Ariel', 'Helvetica', 'sans-serif'],
                 'hoover-regular': ['Hoover-Regular', 'Arial', 'sans-serif'],
                 'space-mono': ['Space-Mono', 'monospace']
             }
