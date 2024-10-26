@@ -4,26 +4,36 @@
 
 @layer base {
 	@font-face {
-		font-family: 'Array-Regular';
+		font-family: 'Karla';
+        font-optical-sizing: auto;
 		font-style: normal;
 		font-weight: 400;
 		font-display: swap;
-		src: url(/fonts/Roboto.woff2) format('woff2');
+		src: url(/fonts/Karla/Karla-Variable.ttf) format('truetype');
 	}
-	@font-face {
-		font-family: 'Space-Mono';
-		src: url('fonts/spacemono/SpaceMonoNerdFontMono-Regular.ttf') format('truetype');
-		font-weight: normal;
-		font-size: normal;
-	}
-	@font-face {
-		font-family: 'Hoover-Regular';
-		src:
-			url('fonts/hoover/Hoover-Regular.woff2') format('woff2'),
-			url('fonts/hoover/Hoover-Regular.woff') format('woff'),
-			url('fonts/hoover/Hoover-Regular.ttf') format('truetype');
-		font-weight: 400;
-		font-display: swap;
-		font-style: normal;
-	}
+    @font-face {
+        font-family: 'Karla';
+        font-optical-sizing: auto;
+        font-style: italic;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/fonts/Karla/Karla-Italic-Variable.ttf) format('truetype')
+    }
+    @font-face {
+        font-family: 'PublicSans';
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/fonts/PublicSans/PublicSans-VariableFont_wght.ttf) format('truetype')
+    }
+    @font-face {
+        font-family: 'PublicSans';
+        font-optical-sizing: auto;
+        font-style: italic;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/fonts/PublicSans/PublicSans-Italic-VariableFont_wght.ttf) format('truetype')
+    }
 }
+
