@@ -1,14 +1,5 @@
-<div class="flex flex-row gap-1 justify-center font-karla text-[16px]">
-    <div class="flex-col w-80 min-h-screen text-white p-8 pt-24">
-        <h1 class="text-3xl font-publicsans" style="font-variation-settings: 'wght' 700;">
-            MiloAC
-        </h1>
-        <div>
+<div class="flex flex-col justify-center">
 
-        </div>
-    </div>
-
-    <div class="flex-col min-w-[850px] min-h-screen text-white pt-24 ">
         <h1 class="text-3xl font-publicsans mb-8" style="font-variation-settings: 'wght' 700;">
             Welcome
         </h1>
@@ -19,8 +10,3 @@
             Currenlty I am pursuing projects and reasearch in different languages.
         </p>
     </div>
-
-    <div class="flex-col w-80 min-h-screen text-white p-8 pt-24">
-        <p>test</p>
-    </div>
-</div>
