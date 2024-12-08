@@ -32,7 +32,6 @@
 		</h1>
 		<p class="mt-4">Hello, I am Milo, a self taught developer passionate about design.</p>
 		<p class="mt-4">Currenlty I am pursuing projects and reasearch in different languages.</p>
-        <p>lsdjflsdjflkadjf;lajf;alsdkjfas;dlkfjasd;lkfjads;lkfjdslkfjsd;lfjasdkl;fja;dlkjfa;lkdjf;kladjfl;asdjfal;kdjfas;ldkfjas;kldfja;lksdjf</p>
         	</div>
 
     <!-- Sidebar -->
