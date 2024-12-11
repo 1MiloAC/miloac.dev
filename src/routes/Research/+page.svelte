@@ -9,7 +9,7 @@
 	</div>
 
     <!-- Main -->
-	<div class="flex-col w-[850px] min-w-[450px] max-w-4xl min-h-screen pt-36 px-4 flex-grow break-words overflow-hidden">
+	<div class="flex-col w-[850px] min-w-[450px] max-w-4xl min-h-screen pt-36 px-4 grow break-words overflow-hidden">
 			<h1 class="text-3xl font-publicsans mb-8" style="font-variation-settings: 'wght' 700;">
 				Research
 			</h1>

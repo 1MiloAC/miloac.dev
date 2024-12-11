@@ -17,7 +17,7 @@
         <a href="./Research">
 		<div class="flex pl-1">
 			<p
-				class="pt-3 text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-slate-500 to-slate-500"
+				class="pt-3 text-transparent bg-clip-text bg-linear-to-r from-emerald-400 via-slate-500 to-slate-500"
 			>
 				Recent Readings
 			</p>
@@ -26,7 +26,7 @@
 	</div>
 
     <!-- Main -->
-	<div class="flex-col w-[850px] min-w-[450px] max-w-4xl min-h-screen pt-36 px-4 flex-grow break-words overflow-hidden">
+	<div class="flex-col w-[850px] min-w-[450px] max-w-4xl min-h-screen pt-36 px-4 grow break-words overflow-hidden">
 		<h1 class="text-3xl font-publicsans mb-8" style="font-variation-settings: 'wght' 700;">
 			Welcome
 		</h1>
