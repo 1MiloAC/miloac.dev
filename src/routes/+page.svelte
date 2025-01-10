@@ -37,6 +37,7 @@
 				style="font-variation-settings: 'wght' 700;"
 			>
 				Navigation
+
 			</p>
 		</div>
 
@@ -44,12 +45,13 @@
 
 
         <div class="ml-1 relative group inline-block">
-		<a href="./Research">
+		<a href="./TheShelf">
 			<div class="transition-all duration-300 hover:scale-110 ease-in-out">
 				<p
-					class="pt-3 text-transparent bg-clip-text bg-linear-to-r from-emerald-400 via-slate-500 to-slate-500"
+					class="font-publicsans"
+                    style="font-variation-settings: 'wght' 700;"
 				>
-					Recent Readings
+					The Shelf
 				</p>
 			</div>
 
@@ -62,20 +64,47 @@
 	<!-- Main -->
 
 	<div
-		class="flex-col w-[850px] min-w-80 max-w-4xl min-h-screen px-4 pt-18 grow break-words overflow-hidden"
+		class="flex-col w-[850px] min-w-80 max-w-4xl min-h-screen md:pt-18 pt-4 px-4 grow break-words overflow-hidden"
 	>
-		<div class="justify-center p-2 bg-fixed bg-center">
+
+        <div class="inline-block">
+            	<div class="visible md:invisible relative group inline-block">
+			<a href="/">
+				<div
+					class=" rounded-full blur-none group-hover:blur-xl group-hover:shadow-xl bg-blend-difference transition-all hover:scale-110 ease-in-out duration-300 group-hover:opacity-100 opacity-0 inline-block"
+				>
+					<h1
+						class="text-3xl font-publicsans inline-block"
+						style="font-variation-settings: 'wght' 700;"
+					>
+						MiloAC
+					</h1>
+				</div>
+				<div class=" absolute top-0">
+					<h1
+						class="text-3xl font-publicsans inline-block z-10 group-hover:scale-110 transition-all duration-300 ease-in-out"
+						style="font-variation-settings: 'wght' 700;"
+					>
+						MiloAC
+					</h1>
+				</div>
+			</a>
+		</div>
+
+
+            </div>
+		<div class="justify-center p-2 mt-5 bg-fixed bg-center">
 			<img src="/images/Frieren.avif" alt="Frieren looking at camera." class="rounded-xl" />
 		</div>
 
 		<h1
-			class="text-3xl font-publicsans mb-8 text-emerald-200 inline-block"
+			class="text-xl font-publicsans mt-4 text-emerald-200 inline-block"
 			style="font-variation-settings: 'wght' 700;"
 		>
 			Welcome
 		</h1>
-		<p class="mt-4">Hello, I am Milo, a self taught developer passionate about code and design.</p>
-		<p class="mt-4">
+		<p class="mt-2">I am Milo, a self taught developer passionate about code and design.</p>
+		<p class="mt-2">
 			Currently I am researching and pursuing several projects in different coding langs, as I
 			pursue a degree in Computer Science.
 		</p>
