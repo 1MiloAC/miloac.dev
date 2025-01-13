@@ -37,7 +37,6 @@
 				Navigation
 			</p>
 		</div>
-
 	</div>
 
 	<!-- Main -->
@@ -69,14 +68,40 @@
 				</a>
 			</div>
 		</div>
-        <div>
+
+		<div class="flex flex-col">
 		<h1
 			class="text-xl font-publicsans mt-4 text-emerald-200 inline-block"
 			style="font-variation-settings: 'wght' 700;"
 		>
-			Welcome
+			Quantum Mechanics
 		</h1>
-            </div>
+			<div class="flex flex-row">
+                <!--Book 1 -->
+				<div class="flex relative group m-4">
+					<div
+						class="absolute inset-0 rounded-[12px] bg-gray-500/30 -z-10 outline outline-transparent group-hover:scale-105 group-hover:outline-white group-hover:outline-offset-2 group-hover:outline-3 transition-all duration-200 ease-in"
+					></div>
+					<div
+						class="flex m-1 rounded-lg overflow-hidden group-hover:scale-105 transition-all duration-200 ease-in"
+					>
+						<img src="/images/books/qt.avif" class="aspect-auto max-w-40 h-auto" alt="Cover of 'Quantum Theory' by 'Neil Bohr'"/>
+					</div>
+				</div>
+
+                <!--Book1-->
+				<div class="flex relative group m-4">
+					<div
+						class="absolute inset-0 rounded-[12px] bg-gray-500/30 -z-10 outline outline-transparent group-hover:scale-105 group-hover:outline-white group-hover:outline-offset-2 group-hover:outline-3 transition-all duration-200 ease-in"
+					></div>
+					<div
+						class="flex m-1 rounded-lg overflow-hidden group-hover:scale-105 transition-all duration-200 ease-in"
+					>
+						<img src="/images/books/qc.avif" class="aspect-auto max-w-40 h-auto" alt="Cover of 'Quantum Computing Explained' by 'Pantheon Space Academy'"/>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 
 	<!-- Sidebar -->
