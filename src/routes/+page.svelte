@@ -4,9 +4,13 @@
 	import XSvg from '$lib/assests/icons/x.svelte';
 </script>
 
-<div class="flex flex-row gap-1 justify-center font-karla text-base text-slate-50 mx-auto">
+<div
+	class="flex flex-col md:flex-row w-full min-h-screen gap-1 justify-center font-karla text-base text-slate-50 mx-auto"
+>
 	<!-- Sidebar -->
-	<div class="flex-col min-w-80 min-h-screen p-8 pt-24 md:block hidden">
+
+	<div class="flex-col min-w-80 h-auto md:min-h-screen md:p-8 p-4 md:pt-24"
+    >
 		<!-- PFP 
         <div class="flex flex-row md:justify-center">
 			<div class="w-32 h-32 my-4">
@@ -52,7 +56,7 @@
 		</div>
 -->
 
-		<div class="flex py-4 ml-2 relative group inline-block">
+		<div class="flex py-4 ml-2 relative group inline-block md:block hidden">
 			<a href="./TheShelf">
 				<div class="transition-all duration-300 hover:scale-110 ease-in-out">
 					<p class="" style="font-variation-settings: 'wght' 700;">The Shelf</p>
@@ -61,36 +65,12 @@
 		</div>
 	</div>
 
+    <div class="flex flex-col xl:flex-row gap-1 w-auto">
 	<!-- Main -->
-
 	<div
-		class="flex-col w-[850px] min-w-80 max-w-4xl min-h-screen md:pt-18 pt-4 px-4 grow break-words overflow-hidden"
+		class="flex-col min-w-80 min-h-screen md:pt-18 pt-4 px-4 grow break-words overflow-hidden"
 	>
-		<div class="inline-block">
-			<div class="visible md:invisible relative group inline-block">
-				<a href="/">
-					<div
-						class=" rounded-full blur-none group-hover:blur-xl group-hover:shadow-xl bg-blend-difference transition-all hover:scale-110 ease-in-out duration-300 group-hover:opacity-100 opacity-0 inline-block"
-					>
-						<h1
-							class="text-3xl font-publicsans inline-block"
-							style="font-variation-settings: 'wght' 700;"
-						>
-							MiloAC
-						</h1>
-					</div>
-					<div class=" absolute top-0">
-						<h1
-							class="text-3xl font-publicsans inline-block z-10 group-hover:scale-110 transition-all duration-300 ease-in-out"
-							style="font-variation-settings: 'wght' 700;"
-						>
-							MiloAC
-						</h1>
-					</div>
-				</a>
-			</div>
-		</div>
-		<div class="justify-center p-2 mt-5 bg-fixed bg-center">
+		<div class="justify-center p-2 md:mt-5 bg-fixed bg-center">
 			<img src="/images/Frieren.avif" alt="Frieren looking at camera." class="rounded-xl" />
 		</div>
 
@@ -108,5 +88,6 @@
 	</div>
 
 	<!-- Sidebar -->
-	<div class="flex-col w-80 min-h-screen p-8 pt-24 xl:block hidden"></div>
+	<div class="flex-col min-w-80 h-auto xl:min-h-screen xl:p-8 xl:pt-24"></div>
+</div>
 </div>
