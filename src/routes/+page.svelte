@@ -58,7 +58,7 @@
             </p>
             <p class="mt-2">
                 Currently I am researching and pursuing several projects in
-                different coding langs, as I pursue a degree in Computer
+                different coding languages, as I pursue a degree in Computer
                 Science.
             </p>
         </div>
