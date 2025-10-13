@@ -1,0 +1,36 @@
+@import 'tailwindcss';
+@layer base {
+	@font-face {
+		font-family: 'Karla';
+        font-optical-sizing: auto;
+		font-style: normal;
+		font-weight: 400;
+		font-display: swap;
+		src: url(/fonts/Karla/Karla-Variable.ttf) format('truetype');
+	}
+    @font-face {
+        font-family: 'Karla';
+        font-optical-sizing: auto;
+        font-style: italic;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/fonts/Karla/Karla-Italic-Variable.ttf) format('truetype')
+    }
+    @font-face {
+        font-family: 'PublicSans';
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/fonts/PublicSans/PublicSans-VariableFont_wght.ttf) format('truetype')
+    }
+    @font-face {
+        font-family: 'PublicSans';
+        font-optical-sizing: auto;
+        font-style: italic;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/fonts/PublicSans/PublicSans-Italic-VariableFont_wght.ttf) format('truetype')
+    }
+}
+
