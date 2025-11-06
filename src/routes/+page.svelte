@@ -4,7 +4,7 @@
 </script>
 
 <div
-    class="flex flex-col md:flex-row w-full min-h-screen gap-1 justify-center font-karla text-base text-slate-50 mx-auto"
+    class="flex flex-col md:flex-row w-full min-h-screen gap-1 font-karla text-base text-slate-50 mx-auto"
 >
     <!-- Sidebar -->
 
@@ -37,7 +37,7 @@
     <div class="flex flex-col xl:flex-row gap-1 w-auto">
         <!-- Main -->
         <div
-            class="flex-col min-w-80 min-h-screen md:pt-18 pt-4 px-4 grow break-words overflow-hidden"
+            class="flex-col min-w-80 h-fit md:pt-18 pt-4 px-4 grow break-words overflow-hidden"
         >
             <div class="justify-center p-2 md:mt-5 bg-fixed bg-center">
                 <img
