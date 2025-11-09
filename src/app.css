@@ -5,6 +5,10 @@
     --font-publicsans: 'PublicSans';
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 @font-face {
     font-family: 'Karla';
     font-optical-sizing: auto;
