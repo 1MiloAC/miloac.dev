@@ -11,6 +11,13 @@
     <div class="flex-col min-w-80 h-auto md:min-h-screen md:p-8 p-4 md:pt-24">
         <!-- title with blur on hover -->
         <div class="flex md:flex-col flex-row">
+            <div class="md:p-0 py-2 pr-8">
+                <img
+                    src="/images/Ryo.avif"
+                    alt="Ryo Yamada"
+                    class="rounded-full md:h-30 h-10 justify-center"
+                />
+            </div>
             <div class="py-2 relative group inline-block">
                 <a href="/">
                     <h1
