@@ -1,8 +1,18 @@
 @import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
 
 @theme {
     --font-karla: 'Karla';
     --font-publicsans: 'PublicSans';
+}
+
+:root {
+    color-scheme: dark;
+}
+
+body {
+    background-color: #0e1116;
 }
 
 body::-webkit-scrollbar {
