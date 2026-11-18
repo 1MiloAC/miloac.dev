@@ -1,10 +1,15 @@
-<script>
+<script lang="ts">
+	import { resolve } from '$app/paths';
 	import GithubSvg from '#lib/assets/icons/github.svelte';
 	import TwitterSvg from '#lib/assets/icons/twitter.svelte';
+	import PostList from '#lib/components/PostList.svelte';
+	import type { PageProps } from './$types';
+
+	let { data }: PageProps = $props();
 </script>
 
 <div
-	class="font-karla mx-auto flex min-h-screen w-full flex-col gap-1 text-base text-slate-50 md:flex-row"
+	class="mx-auto flex min-h-screen w-full flex-col gap-1 font-karla text-base text-slate-50 md:flex-row"
 >
 	<!-- Sidebar -->
 
@@ -19,9 +24,9 @@
 				/>
 			</div>
 			<div class="group relative inline-block py-2">
-				<a href="/">
+				<a href={resolve('/')}>
 					<h1
-						class="font-publicsans inline-block text-3xl"
+						class="inline-block font-publicsans text-3xl"
 						style="font-variation-settings: 'wght' 700;"
 					>
 						MiloAC
@@ -39,7 +44,7 @@
 		</div>
 	</div>
 
-	<div class="flex w-auto flex-col gap-1 xl:flex-row">
+	<div class="flex w-auto grow flex-col gap-1 xl:flex-row">
 		<!-- Main -->
 		<div class="wrap-break-words h-fit min-w-80 grow flex-col overflow-hidden px-4 pt-4 md:pt-18">
 			<div class="justify-center bg-fixed bg-center p-2 md:mt-5">
@@ -47,7 +52,7 @@
 			</div>
 
 			<h1
-				class="font-publicsans mt-4 inline-block text-xl text-emerald-200"
+				class="mt-4 inline-block font-publicsans text-xl text-emerald-200"
 				style="font-variation-settings: 'wght' 700;"
 			>
 				Welcome
@@ -60,6 +65,19 @@
 		</div>
 
 		<!-- Sidebar -->
-		<div class="h-auto min-w-80 flex-col xl:min-h-screen xl:p-8 xl:pt-24"></div>
+		<div class="flex h-auto min-w-80 flex-col gap-2 px-4 py-8 xl:min-h-screen xl:w-80 xl:shrink-0 xl:p-8 xl:pt-24">
+			<div class="flex items-baseline justify-between px-2">
+				<h2
+					class="font-publicsans text-lg text-emerald-300"
+					style="font-variation-settings: 'wght' 700;"
+				>
+					Blog
+				</h2>
+				<a href={resolve('/blog')} class="text-xs text-slate-400 hover:text-emerald-300">
+					View all ({data.total_p}) ->
+				</a>
+			</div>
+			<PostList posts={data.posts} />
+		</div>
 	</div>
 </div>
